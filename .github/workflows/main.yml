@@ -17,5 +17,5 @@ jobs:
           project_name:
           cx_tenant: ast_abdul_ansari
           base_uri: https://eu.ast.checkmarx.net/
-          cx_client_id: github
-          cx_client_secret: FBZ8Pwse5V6o34q99j5ZLeXaY79SR4gc
+          cx_client_id: ${{ secrets.CXCLIENT_ID }}
+          cx_client_secret: ${{ secrets.CXCLIENT_SECRET }}
